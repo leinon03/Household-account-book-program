@@ -12,17 +12,17 @@
 테이블 이름 | 필드 (Field) | 데이터 타입 (Type) | NULL 허용 (NULL) | 제약 조건 (Key) | 상세 설정
 
 udb
-client (사용자 정보) | ID | varchar(10) | (NOT NULL) | PRI (Primary Key)
+client (사용자 정보) | ID | varchar(10) | (NOT NULL) | PRI (Primary Key)  
 password | varchar(20) | (NOT NULL)
 
 maindb
-id | int | (NOT NULL) | PRI (Primary Key) | AUTO_INCREMENT
-client_id | varchar(50) | (NOT NULL)
-date | date | (NOT NULL)
-type | varchar(20) | (NOT NULL)
-category | varchar(50) | (NULL)
-title | varchar(100) | (NULL)
-amount | int | (NOT NULL)
+id | int | (NOT NULL) | PRI (Primary Key) | AUTO_INCREMENT  
+client_id | varchar(50) | (NOT NULL)  
+date | date | (NOT NULL)  
+type | varchar(20) | (NOT NULL)  
+category | varchar(50) | (NULL)  
+title | varchar(100) | (NULL)  
+amount | int | (NOT NULL)  
 
 테이블 구조에 대한 더 자세한 정보는 첨부된 JPG 파일을 참고해 주세요.
 
